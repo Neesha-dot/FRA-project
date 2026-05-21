@@ -1,0 +1,3254 @@
+[
+  {
+    "fault_id": "F0_HEALTHY",
+    "fault_label": "healthy",
+    "display_name": "Healthy Transformer",
+    "section": "description",
+    "text": "No significant abnormality detected in SFRA, energy bands, turbulence, HF decay or loss/efficiency profile."
+  },
+  {
+    "fault_id": "F0_HEALTHY",
+    "fault_label": "healthy",
+    "display_name": "Healthy Transformer",
+    "section": "typical_sfra_signatures",
+    "text": "Smooth, repeatable frequency response with no unexpected peaks or notches."
+  },
+  {
+    "fault_id": "F0_HEALTHY",
+    "fault_label": "healthy",
+    "display_name": "Healthy Transformer",
+    "section": "typical_sfra_signatures",
+    "text": "Stable low-frequency region with expected resonances."
+  },
+  {
+    "fault_id": "F0_HEALTHY",
+    "fault_label": "healthy",
+    "display_name": "Healthy Transformer",
+    "section": "typical_sfra_signatures",
+    "text": "Mid-frequency patterns matching factory or historical baseline within tolerance."
+  },
+  {
+    "fault_id": "F0_HEALTHY",
+    "fault_label": "healthy",
+    "display_name": "Healthy Transformer",
+    "section": "typical_sfra_signatures",
+    "text": "High-frequency band without sudden deep notches or collapse."
+  },
+  {
+    "fault_id": "F0_HEALTHY",
+    "fault_label": "healthy",
+    "display_name": "Healthy Transformer",
+    "section": "supporting_observables",
+    "text": "Loss and efficiency values within manufacturer limits."
+  },
+  {
+    "fault_id": "F0_HEALTHY",
+    "fault_label": "healthy",
+    "display_name": "Healthy Transformer",
+    "section": "supporting_observables",
+    "text": "No unusual vibration or acoustic noise."
+  },
+  {
+    "fault_id": "F0_HEALTHY",
+    "fault_label": "healthy",
+    "display_name": "Healthy Transformer",
+    "section": "supporting_observables",
+    "text": "DGA results without abnormal gassing trend."
+  },
+  {
+    "fault_id": "F0_HEALTHY",
+    "fault_label": "healthy",
+    "display_name": "Healthy Transformer",
+    "section": "supporting_observables",
+    "text": "Normal load and temperature behavior."
+  },
+  {
+    "fault_id": "F0_HEALTHY",
+    "fault_label": "healthy",
+    "display_name": "Healthy Transformer",
+    "section": "severity_NONE_summary",
+    "severity": "NONE",
+    "severity_name": "No Fault",
+    "text": "All rule-based thresholds lie in the healthy range; deviations remain within expected tolerance bands."
+  },
+  {
+    "fault_id": "F0_HEALTHY",
+    "fault_label": "healthy",
+    "display_name": "Healthy Transformer",
+    "section": "severity_NONE_recommended_actions",
+    "severity": "NONE",
+    "severity_name": "No Fault",
+    "text": "Store this SFRA as a reference baseline if not already present."
+  },
+  {
+    "fault_id": "F0_HEALTHY",
+    "fault_label": "healthy",
+    "display_name": "Healthy Transformer",
+    "section": "severity_NONE_recommended_actions",
+    "severity": "NONE",
+    "severity_name": "No Fault",
+    "text": "Continue routine condition monitoring as per maintenance schedule."
+  },
+  {
+    "fault_id": "F0_HEALTHY",
+    "fault_label": "healthy",
+    "display_name": "Healthy Transformer",
+    "section": "severity_NONE_recommended_actions",
+    "severity": "NONE",
+    "severity_name": "No Fault",
+    "text": "Use trend analysis rather than single-shot decisions."
+  },
+  {
+    "fault_id": "F0_HEALTHY",
+    "fault_label": "healthy",
+    "display_name": "Healthy Transformer",
+    "section": "recommended_tests",
+    "text": "Periodic SFRA re-test based on criticality and utility policy."
+  },
+  {
+    "fault_id": "F0_HEALTHY",
+    "fault_label": "healthy",
+    "display_name": "Healthy Transformer",
+    "section": "recommended_tests",
+    "text": "Standard oil tests and DGA as per schedule."
+  },
+  {
+    "fault_id": "F0_HEALTHY",
+    "fault_label": "healthy",
+    "display_name": "Healthy Transformer",
+    "section": "recommended_tests",
+    "text": "Thermal and loading trend review."
+  },
+  {
+    "fault_id": "F0_HEALTHY",
+    "fault_label": "healthy",
+    "display_name": "Healthy Transformer",
+    "section": "preventive_actions",
+    "text": "Maintain proper transport and handling procedures."
+  },
+  {
+    "fault_id": "F0_HEALTHY",
+    "fault_label": "healthy",
+    "display_name": "Healthy Transformer",
+    "section": "preventive_actions",
+    "text": "Avoid overloading and excessive through-faults."
+  },
+  {
+    "fault_id": "F0_HEALTHY",
+    "fault_label": "healthy",
+    "display_name": "Healthy Transformer",
+    "section": "preventive_actions",
+    "text": "Keep records of all SFRA traces for long-term trending."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "description",
+    "text": "Global mechanical distortion of winding geometry affecting inductance, capacitance and leakage reactance, leading to broad changes in SFRA signatures."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "typical_sfra_signatures",
+    "text": "Broad shift of resonant peaks across low, mid and high frequency regions."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "typical_sfra_signatures",
+    "text": "Collapse or smearing of distinct resonances into wider, less-defined humps."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "typical_sfra_signatures",
+    "text": "Significant deviation from baseline across a wide frequency band."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "typical_sfra_signatures",
+    "text": "Asymmetry between phases for identical test configurations."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "supporting_observables",
+    "text": "History of through-faults or short-circuit events."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "supporting_observables",
+    "text": "Transport or handling shocks without proper bracing."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "supporting_observables",
+    "text": "Increase in leakage reactance compared to nameplate or baseline."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "supporting_observables",
+    "text": "Abnormal vibration or noise under load."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "common_root_causes",
+    "text": "Severe short-circuit mechanical forces exceeding design withstand levels."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "common_root_causes",
+    "text": "Improper clamping or loss of clamping force over time."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "common_root_causes",
+    "text": "Transport without locking devices or inadequate bracing."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "common_root_causes",
+    "text": "Aging and shrinkage of solid insulation allowing windings to move."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "severity_S1_summary",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Very Mild Deformation",
+    "text": "Small SFRA deviations and minor modal shifts; pattern still broadly resembles baseline."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Very Mild Deformation",
+    "text": "Flag the unit for closer SFRA trend monitoring."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Very Mild Deformation",
+    "text": "Cross-check with load current, temperature and basic electrical tests."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "severity_S2_summary",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild Deformation",
+    "text": "Clear but limited shifts in specific frequency bands; still acceptable for operation."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild Deformation",
+    "text": "Schedule detailed SFRA comparison of all phases and similar units."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild Deformation",
+    "text": "Combine with DGA, insulation and capacitance/inductance checks."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "severity_S3_summary",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Moderate Deformation",
+    "text": "Significant deviation from baseline in multiple bands; distinct resonances shifted or collapsed."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Moderate Deformation",
+    "text": "Plan controlled outage for internal inspection where feasible."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Moderate Deformation",
+    "text": "Check mechanical clamping, spacers, blocks and winding support systems."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "severity_S4_summary",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Deformation",
+    "text": "Major disruption in SFRA pattern; strong phase-to-phase mismatch."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Deformation",
+    "text": "Avoid heavy loading and new short-circuit duty."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Deformation",
+    "text": "Perform thorough internal inspection and dimensional checks of windings."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "severity_S5_summary",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical / Catastrophic Deformation",
+    "text": "SFRA indicates collapse of characteristic structure consistent with major winding displacement."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical / Catastrophic Deformation",
+    "text": "Remove the transformer from service as soon as practical."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical / Catastrophic Deformation",
+    "text": "Assess rewinding or replacement; do not return to normal service without remediation."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "recommended_tests",
+    "text": "Phase-wise SFRA comparison including HV/LV, open/short configurations."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "recommended_tests",
+    "text": "Impedance and leakage reactance comparison to nameplate and historical values."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "recommended_tests",
+    "text": "Dissolved gas analysis for evidence of severe mechanical or thermal events."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "recommended_tests",
+    "text": "Capacitance and inductance measurements for phase imbalance."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "preventive_actions",
+    "text": "Enforce mechanical bracing and locking procedures during transport."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "preventive_actions",
+    "text": "Limit short-circuit exposure through network protection coordination."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "preventive_actions",
+    "text": "Perform SFRA immediately after major faults and compare with baseline."
+  },
+  {
+    "fault_id": "F1_WINDING_DEFORMATION",
+    "fault_label": "winding_deformation",
+    "display_name": "Winding Deformation (General)",
+    "section": "preventive_actions",
+    "text": "Maintain clamping systems and monitor for loosening over long-term operation."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "description",
+    "text": "Inward or outward buckling and distortion of windings in the radial direction due to hoop stresses."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "typical_sfra_signatures",
+    "text": "Pronounced changes in mid-frequency resonances associated with radial geometry."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "typical_sfra_signatures",
+    "text": "Loss or shift of peaks linked to series inductance and radial spacing."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "typical_sfra_signatures",
+    "text": "Asymmetry between phases for the same connection and test configuration."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "typical_sfra_signatures",
+    "text": "In severe cases, collapse of a group of resonances in the mid band."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "supporting_observables",
+    "text": "History of heavy short-circuit currents close to the unit."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "supporting_observables",
+    "text": "Change in short-circuit impedance beyond tolerance."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "supporting_observables",
+    "text": "Uneven mechanical noise from specific limbs or phases."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "supporting_observables",
+    "text": "High fault current duty in recent years without mechanical verification."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "common_root_causes",
+    "text": "High radial forces during external short-circuits."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "common_root_causes",
+    "text": "Insufficient radial bracing or spacer design."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "common_root_causes",
+    "text": "Aging and creep of solid insulation that reduces mechanical support."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "common_root_causes",
+    "text": "Design not fully matched to actual network fault levels."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "severity_S1_summary",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Early Radial Distortion",
+    "text": "Minor mid-frequency shifts, within or close to acceptance tolerances."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Early Radial Distortion",
+    "text": "Trend SFRA over time and after subsequent faults."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Early Radial Distortion",
+    "text": "Re-check short-circuit impedance vs factory data."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "severity_S2_summary",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild Radial Deformation",
+    "text": "Clear deviation from baseline in limited mid-frequency ranges; geometry still mostly intact."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild Radial Deformation",
+    "text": "Increase SFRA monitoring frequency."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild Radial Deformation",
+    "text": "Assess loading and fault duty; derate if justified."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "severity_S3_summary",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Moderate Buckling",
+    "text": "Distinct change in multiple mid-frequency resonances; pattern consistent with partial buckling."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Moderate Buckling",
+    "text": "Discuss with OEM for structural assessment of windings."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Moderate Buckling",
+    "text": "Plan controlled outage for visual/mechanical inspection where practical."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "severity_S4_summary",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Radial Collapse",
+    "text": "Large part of the mid-frequency structure distorted or collapsed; strong phase differences."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Radial Collapse",
+    "text": "Consider the unit mechanically compromised."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Radial Collapse",
+    "text": "Limit load and prepare to remove from critical duty."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "severity_S5_summary",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Structural Collapse",
+    "text": "SFRA indicates major radial failure; geometry no longer consistent with safe operation."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Structural Collapse",
+    "text": "Remove from service at earliest opportunity."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Structural Collapse",
+    "text": "Decide on rewinding or replacement; do not return to normal duty without repair."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "recommended_tests",
+    "text": "Detailed SFRA around mid-frequency region for all phases."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "recommended_tests",
+    "text": "Short-circuit impedance comparison test."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "recommended_tests",
+    "text": "DGA for evidence of severe mechanical stress or arcing."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "recommended_tests",
+    "text": "Visual inspection of windings and spacers when tank is opened."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "preventive_actions",
+    "text": "Design and verify radial bracing for actual network fault currents."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "preventive_actions",
+    "text": "Avoid repeated high-magnitude through-faults."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "preventive_actions",
+    "text": "Immediately test SFRA after major faults and compare against factory traces."
+  },
+  {
+    "fault_id": "F2_RADIAL_DEFORMATION",
+    "fault_label": "radial_deformation",
+    "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+    "section": "preventive_actions",
+    "text": "Implement stricter protection settings where possible."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "description",
+    "text": "Vertical upward or downward movement of windings along the limb axis, altering axial capacitance and inductance distribution."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "typical_sfra_signatures",
+    "text": "Low- and mid-frequency resonance shifts along the frequency axis."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "typical_sfra_signatures",
+    "text": "Appearance of new resonances or disappearance of previously distinct peaks."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "typical_sfra_signatures",
+    "text": "Differences between tap positions that were previously aligned."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "typical_sfra_signatures",
+    "text": "Phase-to-phase mismatch indicating movement of one winding stack relative to others."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "supporting_observables",
+    "text": "Evidence of transport events without proper clamping or locking."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "supporting_observables",
+    "text": "History of heavy through-faults or axial force events."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "supporting_observables",
+    "text": "Unusual vibration profile along tank height."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "supporting_observables",
+    "text": "Change in no-load current or excitation characteristics."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "common_root_causes",
+    "text": "Axial forces during short-circuits exceeding clamp capability."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "common_root_causes",
+    "text": "Loss of end-block compression and axial wedges."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "common_root_causes",
+    "text": "Shrinkage or creep in axial insulation packs."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "common_root_causes",
+    "text": "Improper assembly or reassembly after repair."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "severity_S1_summary",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Minor Axial Shift",
+    "text": "Small frequency shift of one or two resonances; still near baseline."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Minor Axial Shift",
+    "text": "Monitor SFRA trend on same limb and phase over time."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Minor Axial Shift",
+    "text": "Check transport and operating history for mechanical incidents."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "severity_S2_summary",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild Axial Displacement",
+    "text": "Multiple resonances slightly shifted; pattern broadly intact but clearly changed."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild Axial Displacement",
+    "text": "Increase monitoring frequency and combine with other diagnostic tests."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild Axial Displacement",
+    "text": "Review clamping system design and previous maintenance records."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "severity_S3_summary",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Moderate Axial Movement",
+    "text": "Pronounced shift of several resonances; SFRA clearly inconsistent with baseline on one or more limbs."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Moderate Axial Movement",
+    "text": "Plan outage for internal inspection of end-blocks and axial clamping."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Moderate Axial Movement",
+    "text": "Re-tighten or rebuild axial support structures as needed."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "severity_S4_summary",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Axial Displacement",
+    "text": "Large axial shift; resonances may merge or disappear; phase-to-phase alignment is lost."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Axial Displacement",
+    "text": "Treat the unit as mechanically at-risk."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Axial Displacement",
+    "text": "Avoid high load and severe network events."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Axial Displacement",
+    "text": "Carry out mechanical overhaul of affected windings."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "severity_S5_summary",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Axial Misalignment",
+    "text": "Response consistent with major displacement; possible partial short or dielectric clearance violation."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Axial Misalignment",
+    "text": "Remove unit from critical service immediately."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Axial Misalignment",
+    "text": "Perform detailed mechanical and dielectric clearance assessment."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "recommended_tests",
+    "text": "Vertical vibration and acoustic survey along tank height."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "recommended_tests",
+    "text": "SFRA comparison of multiple tap positions on the same phase."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "recommended_tests",
+    "text": "Capacitance and inductance balance tests between phases."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "recommended_tests",
+    "text": "Inspection of end blocks, wedges and axial clamping at outage."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "preventive_actions",
+    "text": "Use robust axial clamping systems and maintain bolt torques."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "preventive_actions",
+    "text": "Inspect axial supports after major fault events."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "preventive_actions",
+    "text": "Avoid frequent heavy through-faults by network coordination."
+  },
+  {
+    "fault_id": "F3_AXIAL_DISPLACEMENT",
+    "fault_label": "axial_displacement",
+    "display_name": "Axial Displacement",
+    "section": "preventive_actions",
+    "text": "Include axial movement checks in factory and post-transport tests."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "description",
+    "text": "Multiple or unintended core-to-ground connections causing circulating currents, extra losses and local overheating."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "typical_sfra_signatures",
+    "text": "Changes in very low frequency region linked to core and grounding path."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "typical_sfra_signatures",
+    "text": "Altered first resonances due to modified core-ground capacitance."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "typical_sfra_signatures",
+    "text": "Differences between test configurations involving core or tank reference."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "typical_sfra_signatures",
+    "text": "Subtle changes that correlate with other evidence such as losses and current."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "supporting_observables",
+    "text": "Increased core losses compared to factory data."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "supporting_observables",
+    "text": "Higher than expected no-load current."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "supporting_observables",
+    "text": "Localized hot spots on core or tank detected by thermal imaging."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "supporting_observables",
+    "text": "Evidence from core insulation resistance tests or flux measurements."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "common_root_causes",
+    "text": "Degradation of core insulation packs or barriers."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "common_root_causes",
+    "text": "Metallic debris bridging core to grounded structures."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "common_root_causes",
+    "text": "Incorrectly installed or damaged core grounding leads."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "common_root_causes",
+    "text": "Aging, moisture or thermal cycling weakening insulation."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "severity_S1_summary",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Suspected Core Grounding",
+    "text": "SFRA and losses hint at possible additional ground path, but evidence is still weak."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Suspected Core Grounding",
+    "text": "Repeat tests and confirm repeatability of signatures."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Suspected Core Grounding",
+    "text": "Perform core insulation resistance and flux-neutral tests."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "severity_S2_summary",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Confirmed Additional Ground Path",
+    "text": "Correlated evidence indicates more than one core ground point."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Confirmed Additional Ground Path",
+    "text": "Plan outage to localize and clear unwanted ground paths."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Confirmed Additional Ground Path",
+    "text": "Inspect for metallic debris, damaged insulation or incorrect earthing connections."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "severity_S3_summary",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Significant Core Grounding Fault",
+    "text": "Core and tank behavior strongly affected; losses and temperatures elevated."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Significant Core Grounding Fault",
+    "text": "Take unit under close loading control and plan corrective outage promptly."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Significant Core Grounding Fault",
+    "text": "Carry out detailed core inspection, cleaning and insulation repair."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "severity_S4_summary",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Grounding with Hot Spots",
+    "text": "Evidence of hot spots and severe loss increase; marked core behavior change."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Grounding with Hot Spots",
+    "text": "Avoid heavy loading and long-duration operation until issue is cleared."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Grounding with Hot Spots",
+    "text": "Perform urgent internal inspection focusing on core clamps, bolts and insulation barriers."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "severity_S5_summary",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Core Ground Fault",
+    "text": "Core grounding state considered unsafe for continued operation."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Core Ground Fault",
+    "text": "De-energize the transformer as soon as practical."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Core Ground Fault",
+    "text": "Undertake full core inspection and rebuild where needed."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "recommended_tests",
+    "text": "Core insulation resistance and core grounding continuity tests."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "recommended_tests",
+    "text": "No-load loss and current measurement versus factory values."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "recommended_tests",
+    "text": "Thermal imaging of core and tank areas."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "recommended_tests",
+    "text": "SFRA in configurations sensitive to core-ground capacitances."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "preventive_actions",
+    "text": "Maintain cleanliness to avoid conductive debris inside tank."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "preventive_actions",
+    "text": "Preserve integrity of key insulation pieces and barriers around core."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "preventive_actions",
+    "text": "Verify core grounding layout after any major repair or retrofit."
+  },
+  {
+    "fault_id": "F4_CORE_GROUNDING",
+    "fault_label": "core_grounding_fault",
+    "display_name": "Core Grounding Fault",
+    "section": "preventive_actions",
+    "text": "Limit moisture ingress and aggressive thermal cycling."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "description",
+    "text": "Loss of mechanical tightness in core laminations, clamps, yokes, tie plates and frame assemblies, leading to vibration, noise and altered low-frequency behavior."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "typical_sfra_signatures",
+    "text": "Pronounced changes in very low frequency region (roughly 20 Hz \u2013 1 kHz)."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "typical_sfra_signatures",
+    "text": "Suppression or broadening of first core-related resonances."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "typical_sfra_signatures",
+    "text": "LF ripple or modulation of the curve due to vibrating laminations."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "typical_sfra_signatures",
+    "text": "Deviation from baseline primarily in the lowest band with more stable higher-frequency regions."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "supporting_observables",
+    "text": "Increase in audible hum and mechanical vibration at 50/60 Hz and its harmonics."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "supporting_observables",
+    "text": "Rise in magnetizing current compared to historical values."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "supporting_observables",
+    "text": "Higher core losses and possible localized heating near clamps."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "supporting_observables",
+    "text": "History of shocks, transport events or long-term aging without re-tightening."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "common_root_causes",
+    "text": "Loss of clamp bolt torque due to creep, relaxation or thermal cycling."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "common_root_causes",
+    "text": "Pressboard shrinkage reducing compression on laminations."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "common_root_causes",
+    "text": "Mechanical shocks during transport or seismic events."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "common_root_causes",
+    "text": "Corrosion or wear of clamp and frame interfaces."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "severity_S1_summary",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Early Stage Loosening",
+    "text": "Minor LF deviation and slight increase in hum or vibration; magnetizing current near normal."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Early Stage Loosening",
+    "text": "Trend SFRA and vibration over time."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Early Stage Loosening",
+    "text": "Check accessible external clamps and supports for tightening."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "severity_S2_summary",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Light Core Loosening",
+    "text": "LF deviation more noticeable, audible noise; magnetizing current elevated."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Light Core Loosening",
+    "text": "Plan maintenance window to inspect and re-tighten clamps where accessible."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Light Core Loosening",
+    "text": "Combine SFRA with vibration and acoustic analysis to localize loose regions."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "severity_S3_summary",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Moderate Loosening",
+    "text": "LF deviation significant with clear ripple; magnetizing current and vibration clearly increased."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Moderate Loosening",
+    "text": "Schedule outage to inspect internal core clamping, yoke clamps and tie plates."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Moderate Loosening",
+    "text": "Re-establish proper compression and replace damaged insulation packers."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "severity_S4_summary",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Core Loosening",
+    "text": "LF region heavily distorted; high vibration and hum; magnetizing current much higher than normal."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Core Loosening",
+    "text": "Treat the unit as mechanically compromised."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Core Loosening",
+    "text": "Restrict load and avoid high fault duty until corrective work is done."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "severity_S5_summary",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Core Instability",
+    "text": "LF region highly distorted or collapsed; severe vibration and noise, high magnetizing current and loss."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Core Instability",
+    "text": "Consider de-energizing the transformer as soon as feasible."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Core Instability",
+    "text": "Perform comprehensive core rebuild or re-stacking if necessary."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "recommended_tests",
+    "text": "Focused SFRA on 20 Hz \u2013 1 kHz region, compared against baseline."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "recommended_tests",
+    "text": "Magnetizing current and core loss measurement at rated voltage."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "recommended_tests",
+    "text": "Vibration and acoustic analysis on tank and core clamp regions."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "recommended_tests",
+    "text": "Thermographic scanning for localized hot spots around core clamps."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "preventive_actions",
+    "text": "Verify and maintain core clamp bolt torque as per OEM guidance."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "preventive_actions",
+    "text": "Minimize shocks during transport; use proper bracing."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "preventive_actions",
+    "text": "Avoid extended operation under conditions that cause excessive vibration."
+  },
+  {
+    "fault_id": "F5_CORE_LOOSENING",
+    "fault_label": "core_loosening",
+    "display_name": "Core Loosening",
+    "section": "preventive_actions",
+    "text": "Perform periodic SFRA and vibration checks on aging units."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "description",
+    "text": "Localized shorted turns or severely weakened insulation between adjacent turns in a winding, causing highly localized changes in impedance and loss, often with thermal and dielectric stress concentration."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "typical_sfra_signatures",
+    "text": "Localized deep notches or sharp changes in the mid- to high-frequency bands."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "typical_sfra_signatures",
+    "text": "Peak splitting or creation of additional resonances in a narrow frequency zone."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "typical_sfra_signatures",
+    "text": "Phase-to-phase asymmetry where only one phase shows a pronounced high-frequency anomaly."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "typical_sfra_signatures",
+    "text": "In severe stages, broader collapse of HF pattern where multiple resonances are damped or vanish."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "supporting_observables",
+    "text": "DGA showing increases in fault gases associated with arcing or severe partial discharge."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "supporting_observables",
+    "text": "Elevated local winding temperature or hotspot indications from thermal monitoring."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "supporting_observables",
+    "text": "Abnormal leakage current, partial discharge activity or failed insulation tests."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "supporting_observables",
+    "text": "History of severe transient events such as lightning, switching surges or temporary overvoltages."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "common_root_causes",
+    "text": "Localized insulation deterioration between turns due to thermal aging or overloading."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "common_root_causes",
+    "text": "Manufacturing defects such as insufficient spacing or sharp edges on conductors."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "common_root_causes",
+    "text": "Contamination, moisture or particles causing bridging between adjacent turns."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "common_root_causes",
+    "text": "Previous transient overvoltage that initiated partial turn breakdown."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "common_root_causes",
+    "text": "Repeated short-circuit stresses weakening turn-to-turn insulation over time."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "severity_S1_summary",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Suspicious High-Frequency Anomaly",
+    "text": "Minor HF notch or peak distortion observed in SFRA without strong corroborating evidence from other diagnostics."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Suspicious High-Frequency Anomaly",
+    "text": "Repeat SFRA with consistent test setup to confirm the anomaly is stable."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Suspicious High-Frequency Anomaly",
+    "text": "Compare with historical and factory baseline curves for the same phase and configuration."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "severity_S2_summary",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Possible Incipient Inter-Turn Weakness",
+    "text": "HF anomalies are repeatable and more clearly defined; other evidence supports emerging insulation stress."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Possible Incipient Inter-Turn Weakness",
+    "text": "Increase monitoring frequency: SFRA, DGA and thermal measurements."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Possible Incipient Inter-Turn Weakness",
+    "text": "Review loading history, through-fault records and transient events."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "severity_S3_summary",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Localized Inter-Turn Fault Likely",
+    "text": "SFRA shows clear, narrow-band HF notches or peak splitting with correlated abnormal gas trends."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Localized Inter-Turn Fault Likely",
+    "text": "Plan a controlled outage for deeper diagnostic investigation."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Localized Inter-Turn Fault Likely",
+    "text": "Perform detailed insulation testing and engage OEM or specialist."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "severity_S4_summary",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Significant Inter-Turn Fault",
+    "text": "Multiple HF anomalies with strong supporting evidence from DGA and insulation tests; localized overheating likely."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Significant Inter-Turn Fault",
+    "text": "Restrict loading and avoid high short-circuit duty or emergency overloads."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Significant Inter-Turn Fault",
+    "text": "Prepare for planned outage and internal inspection of the affected winding section."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "severity_S5_summary",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Inter-Turn Failure",
+    "text": "Diagnostics strongly indicate active inter-turn fault with significant impact on local losses and dielectric integrity."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Inter-Turn Failure",
+    "text": "Consider immediate de-energization if system conditions permit."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Inter-Turn Failure",
+    "text": "Plan for rewinding or replacement of the affected winding before returning to service."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "recommended_tests",
+    "text": "High-frequency SFRA with close comparison across phases and test configurations."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "recommended_tests",
+    "text": "DGA with focus on arcing-related gases and trending over time."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "recommended_tests",
+    "text": "Partial discharge measurements where possible to localize activity."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "recommended_tests",
+    "text": "Capacitance, inductance and insulation resistance tests across the suspected winding."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "preventive_actions",
+    "text": "Control loading to avoid repeated thermal over-stressing of windings."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "preventive_actions",
+    "text": "Ensure lightning and surge protection schemes are adequate and maintained."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "preventive_actions",
+    "text": "Maintain oil quality and dryness to improve dielectric withstand."
+  },
+  {
+    "fault_id": "F6_INTER_TURN_FAULT",
+    "fault_label": "inter_turn_fault",
+    "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+    "section": "preventive_actions",
+    "text": "Use SFRA and DGA routinely after major faults or transient events."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "description",
+    "text": "Overall deterioration of solid and liquid insulation system, including paper, pressboard, oil and interfaces, leading to reduced dielectric margins and increased probability of partial discharge and breakdown."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "typical_sfra_signatures",
+    "text": "General softening or damping of multiple resonances across mid- and high-frequency ranges."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "typical_sfra_signatures",
+    "text": "Less pronounced high-frequency structure compared to baseline, with peaks becoming smoother."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "typical_sfra_signatures",
+    "text": "Subtle but consistent deviations across all phases rather than a single localized anomaly."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "typical_sfra_signatures",
+    "text": "In advanced stages, collapse of high-frequency detail as dielectric properties change significantly."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "supporting_observables",
+    "text": "DGA showing progressive aging signatures and possible partial discharge indicators."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "supporting_observables",
+    "text": "High moisture content in oil and paper, poor breakdown voltage and high dissipation factor."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "supporting_observables",
+    "text": "Low degree of polymerization values indicating advanced paper aging."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "supporting_observables",
+    "text": "Elevated temperatures during operation relative to historical behavior."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "common_root_causes",
+    "text": "Long-term thermal aging from continuous high loading or hotspots."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "common_root_causes",
+    "text": "Inadequate drying and oil treatment leading to persistent moisture."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "common_root_causes",
+    "text": "Ingress of oxygen and contaminants due to leaks or poor sealing."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "common_root_causes",
+    "text": "Repeated overloading beyond nameplate rating."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "severity_S1_summary",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Early Insulation Aging",
+    "text": "Minor SFRA changes with mild supporting evidence from oil tests; insulation still broadly acceptable."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Early Insulation Aging",
+    "text": "Increase frequency of routine oil and insulation testing."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Early Insulation Aging",
+    "text": "Monitor SFRA trends and compare against similar units and baselines."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "severity_S2_summary",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild Degradation",
+    "text": "SFRA deviations more noticeable in high-frequency bands; aging indicators above ideal values."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild Degradation",
+    "text": "Plan enhanced conditioning: oil filtration, drying and moisture control."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild Degradation",
+    "text": "Restrict sustained overloading and closely monitor hottest-spot temperatures."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "severity_S3_summary",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Significant Insulation Degradation",
+    "text": "SFRA shows clear damping of several resonances; diagnostics confirm reduced dielectric quality."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Significant Insulation Degradation",
+    "text": "Develop a life-management plan including possible derating of the transformer."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Significant Insulation Degradation",
+    "text": "Consider intensive refurbishment such as oil reclamation and enhanced drying."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "severity_S4_summary",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Degradation",
+    "text": "Multiple tools confirm advanced deterioration; SFRA high-frequency detail largely damped."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Degradation",
+    "text": "Treat unit as high-risk asset and prioritize for refurbishment or replacement."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Degradation",
+    "text": "Significantly restrict overload and emergency duty."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "severity_S5_summary",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 End-of-Life Insulation Condition",
+    "text": "Insulation system considered near end-of-life; diagnostics show extensive deterioration."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 End-of-Life Insulation Condition",
+    "text": "Schedule replacement or major refurbishment as a priority."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 End-of-Life Insulation Condition",
+    "text": "If left in service temporarily, use strict limits and continuous monitoring."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "recommended_tests",
+    "text": "Comprehensive oil quality analysis including moisture, breakdown voltage and dissipation factor."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "recommended_tests",
+    "text": "DGA trending focused on aging and partial discharge-related gases."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "recommended_tests",
+    "text": "Paper degree-of-polymerization testing where possible or indirect insulation health estimation."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "recommended_tests",
+    "text": "SFRA trending over time and comparison with similar units."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "preventive_actions",
+    "text": "Maintain effective drying and oil treatment programs."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "preventive_actions",
+    "text": "Avoid chronic overloading and operate within thermal design limits."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "preventive_actions",
+    "text": "Ensure tightness of tank and bushings to prevent moisture ingress."
+  },
+  {
+    "fault_id": "F7_INSULATION_DEGRADATION",
+    "fault_label": "insulation_degradation",
+    "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+    "section": "preventive_actions",
+    "text": "Apply timely refurbishment such as oil reclamation to slow further aging."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "description",
+    "text": "Loose mechanical components such as clamps, leads, connectors, support structures or non-core elements that introduce vibration, noise and localized stress without necessarily appearing as a classic core or winding fault."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "typical_sfra_signatures",
+    "text": "Subtle variations in SFRA curves that may change slightly with repeated tests or mechanical state."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "typical_sfra_signatures",
+    "text": "Small distortions or ripples superimposed on otherwise normal responses."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "typical_sfra_signatures",
+    "text": "Phase differences or configuration-dependent anomalies that correlate with certain mechanical positions."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "supporting_observables",
+    "text": "Observable rattling, knocking or intermittent mechanical noise during operation."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "supporting_observables",
+    "text": "Changes in sound signature with load, tap position or cooling mode."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "supporting_observables",
+    "text": "Vibration measurements showing localized peaks at specific frequencies or locations."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "supporting_observables",
+    "text": "Visual signs of loosened hardware, supports or cable bracing when accessible."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "common_root_causes",
+    "text": "Insufficient tightening of external clamps, connections or supports."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "common_root_causes",
+    "text": "Thermal cycling causing loosening of hardware over time."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "common_root_causes",
+    "text": "Vibration due to cooling fans, pumps or external sources not properly damped."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "common_root_causes",
+    "text": "Improper reassembly after maintenance or repair."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "severity_S1_summary",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Minor Mechanical Looseness",
+    "text": "Very subtle indications with minor or no SFRA impact; mostly observed via sound or vibration."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Minor Mechanical Looseness",
+    "text": "Inspect accessible external connections, clamps and structures."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Minor Mechanical Looseness",
+    "text": "Tighten or secure loose hardware following OEM torque specifications."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "severity_S2_summary",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild Looseness with Local Impact",
+    "text": "Looseness affects localized areas such as leads or external busbars; SFRA impact limited or subtle."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild Looseness with Local Impact",
+    "text": "Localize the source through vibration and acoustic surveys."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild Looseness with Local Impact",
+    "text": "Secure and brace leads, connectors and supports."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "severity_S3_summary",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Significant Mechanical Looseness",
+    "text": "Clear mechanical instability; SFRA may show configuration-dependent variations."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Significant Mechanical Looseness",
+    "text": "Plan outage to inspect internal and inaccessible mechanical supports where possible."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Significant Mechanical Looseness",
+    "text": "Tighten and replace hardware, install additional bracing or damping where needed."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "severity_S4_summary",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Looseness with Structural Concern",
+    "text": "Mechanical components significantly unstable; risk of damage to conductors or insulation is high."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Looseness with Structural Concern",
+    "text": "Treat unit as mechanically at-risk; restrict loading if necessary."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Looseness with Structural Concern",
+    "text": "Perform detailed inspection and corrective work including hardware replacement."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "severity_S5_summary",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Mechanical Instability",
+    "text": "Severe mechanical looseness that may result in conductor failure, flashover or severe internal damage."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Mechanical Instability",
+    "text": "Consider immediate removal from service if instability is confirmed."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Mechanical Instability",
+    "text": "Carry out urgent internal and external mechanical repair or reconstruction."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "recommended_tests",
+    "text": "Detailed vibration and acoustic analysis at multiple operating points."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "recommended_tests",
+    "text": "SFRA before and after mechanical tightening to assess impact."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "recommended_tests",
+    "text": "Thermal imaging of suspected loose connections or high-resistance joints."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "recommended_tests",
+    "text": "Torque verification of critical bolted joints and clamps."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "preventive_actions",
+    "text": "Implement regular mechanical inspection and torque checks on critical fasteners."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "preventive_actions",
+    "text": "Use proper bracing and damping for leads, connections and external conductors."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "preventive_actions",
+    "text": "Inspect after transport, seismic events or significant mechanical shocks."
+  },
+  {
+    "fault_id": "F8_MECHANICAL_LOOSENESS",
+    "fault_label": "mechanical_looseness",
+    "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+    "section": "preventive_actions",
+    "text": "Monitor vibration trends and investigate any new or changing noise patterns."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "description",
+    "text": "Cumulative or single-event mechanical damage due to short-circuit forces, which may manifest as a combination of winding deformation, buckling, displacement and structural strain."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "typical_sfra_signatures",
+    "text": "Wide-ranging SFRA deviations that cannot be attributed to a single localized mechanism."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "typical_sfra_signatures",
+    "text": "Combination of radial and axial pattern changes: peak shifts, collapses and altered resonances across several bands."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "typical_sfra_signatures",
+    "text": "Phase-to-phase differences reflecting unequal stress or damage on individual limbs."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "typical_sfra_signatures",
+    "text": "Significant deviation from factory or pre-fault SFRA baseline after a known severe fault event."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "supporting_observables",
+    "text": "Documented history of one or more high-magnitude short-circuit events close to the transformer."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "supporting_observables",
+    "text": "Changes in short-circuit impedance measurements compared to factory data."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "supporting_observables",
+    "text": "DGA evidence of severe mechanical or electrical stress during the incident."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "supporting_observables",
+    "text": "Visible mechanical issues such as bent leads or shifted structures where accessible."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "common_root_causes",
+    "text": "External short-circuits exceeding design withstand levels."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "common_root_causes",
+    "text": "Multiple high-energy faults over the service life without subsequent mechanical verification."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "common_root_causes",
+    "text": "Protection miscoordination leading to prolonged fault duration."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "common_root_causes",
+    "text": "Insufficient mechanical design margin relative to actual network fault levels."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "severity_S1_summary",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Minor Stress Signatures Post-Fault",
+    "text": "Small SFRA differences detected post-fault; changes near acceptance limits."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Minor Stress Signatures Post-Fault",
+    "text": "Trend SFRA periodically and compare with pre-fault baselines."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Minor Stress Signatures Post-Fault",
+    "text": "Verify short-circuit impedance remains within tolerance."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "severity_S2_summary",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild Damage from Short-Circuit",
+    "text": "More noticeable SFRA deviations in selected bands, suggesting limited impact."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild Damage from Short-Circuit",
+    "text": "Increase monitoring and perform SFRA after any additional fault events."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild Damage from Short-Circuit",
+    "text": "Consider limiting fault duty by network or protection adjustments."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "severity_S3_summary",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Significant Mechanical Damage from Fault",
+    "text": "SFRA shows distinct pattern changes indicating deformation or displacement."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Significant Mechanical Damage from Fault",
+    "text": "Engage OEM or experts to evaluate mechanical condition and residual withstand level."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Significant Mechanical Damage from Fault",
+    "text": "Plan outage for internal inspection where technically and economically justified."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "severity_S4_summary",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Stress-Related Damage",
+    "text": "Extensive SFRA deviation with evidence of major structural impact."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Stress-Related Damage",
+    "text": "Treat transformer as compromised for future short-circuit events."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe Stress-Related Damage",
+    "text": "Develop contingency plans such as spare units or network reconfiguration."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "severity_S5_summary",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Post-Fault Condition",
+    "text": "Combined evidence indicates transformer no longer safely withstands design-level faults."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Post-Fault Condition",
+    "text": "Remove or protect the unit from positions with high fault exposure."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical Post-Fault Condition",
+    "text": "Plan for replacement or major rebuild on priority basis."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "recommended_tests",
+    "text": "Baseline versus post-fault SFRA comparisons for all phases."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "recommended_tests",
+    "text": "Short-circuit impedance tests compared to nameplate and historical values."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "recommended_tests",
+    "text": "Comprehensive DGA after each severe fault event."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "recommended_tests",
+    "text": "Mechanical inspection of windings, spacers and structural elements during outages."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "preventive_actions",
+    "text": "Coordinate system protection to limit fault magnitude and duration."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "preventive_actions",
+    "text": "Avoid locating mechanically weaker or aged units at high fault level buses."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "preventive_actions",
+    "text": "Perform SFRA immediately after major faults for early detection of damage."
+  },
+  {
+    "fault_id": "F9_SC_MECHANICAL_STRESS",
+    "fault_label": "sc_mechanical_stress",
+    "display_name": "Short-Circuit Mechanical Stress History",
+    "section": "preventive_actions",
+    "text": "Select transformers with adequate mechanical margins for actual network conditions."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "description",
+    "text": "Issues within the on-load tap changer assembly such as contact wear, poor switching performance, resistive bridging, mechanical misalignment or contamination."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "typical_sfra_signatures",
+    "text": "Differences in SFRA traces between tap positions that were historically similar."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "typical_sfra_signatures",
+    "text": "Unexpected anomalies tied specifically to certain tap positions or tap ranges."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "typical_sfra_signatures",
+    "text": "Asymmetry between phases when taps are nominally in the same position."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "typical_sfra_signatures",
+    "text": "Configuration-dependent changes, especially in tests that include the tap winding path."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "supporting_observables",
+    "text": "OLTC operation problems such as slow or failed tap changes, abnormal sounds or blocked operations."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "supporting_observables",
+    "text": "Evidence of contact wear or burning from OLTC inspection reports."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "supporting_observables",
+    "text": "Rising contact resistance, overheating or gas generation in the OLTC compartment."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "supporting_observables",
+    "text": "Abnormal relay operations or protection trips during tap change operations."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "common_root_causes",
+    "text": "Aging and erosion of OLTC contacts due to repeated switching under load."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "common_root_causes",
+    "text": "Insufficient maintenance, inadequate contact pressure or misadjusted mechanisms."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "common_root_causes",
+    "text": "Contamination or degradation of OLTC oil leading to carbon deposits and sludge."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "common_root_causes",
+    "text": "Mechanical misalignment or wear in drive linkages, gears and selector mechanisms."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "severity_S1_summary",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Early OLTC Condition Issues",
+    "text": "Minor, tap-position-specific SFRA variations with weak or no corroborating symptoms."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Early OLTC Condition Issues",
+    "text": "Correlate SFRA changes with tap position and historical data."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Early OLTC Condition Issues",
+    "text": "Increase monitoring of OLTC operations and count of tap changes."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "severity_S2_summary",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild OLTC Degradation",
+    "text": "Consistent SFRA differences at certain tap positions alongside mild OLTC symptoms."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild OLTC Degradation",
+    "text": "Schedule maintenance window to inspect and service the OLTC."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild OLTC Degradation",
+    "text": "Check contact wear, spring forces and mechanical alignment."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "severity_S3_summary",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Significant OLTC Fault Behavior",
+    "text": "Clear SFRA anomalies plus noticeable OLTC issues such as mis-operations, heating or relay activity."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Significant OLTC Fault Behavior",
+    "text": "Limit unnecessary tap changes and avoid operating known problematic positions."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Significant OLTC Fault Behavior",
+    "text": "Carry out detailed OLTC inspection, cleaning and component replacement as needed."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "severity_S4_summary",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe OLTC Degradation",
+    "text": "Severe tap-dependent anomalies with evidence of contact burning or mechanical jamming."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe OLTC Degradation",
+    "text": "Treat OLTC as a high-risk component and plan urgent repair or retrofit."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe OLTC Degradation",
+    "text": "Avoid stressful tap operations and configurations inducing high current through damaged contacts."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "severity_S5_summary",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical OLTC Fault",
+    "text": "OLTC considered unsafe to operate; strong evidence of severe contact or mechanical failure."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical OLTC Fault",
+    "text": "Minimize or completely avoid OLTC operation until repaired."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical OLTC Fault",
+    "text": "Take transformer out of service if safe operation cannot be guaranteed."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "recommended_tests",
+    "text": "Tap-position-resolved SFRA comparison across the full operating range."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "recommended_tests",
+    "text": "Dynamic resistance measurement or contact resistance testing of OLTC paths."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "recommended_tests",
+    "text": "OLTC oil sampling and analysis for carbon and degradation products."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "recommended_tests",
+    "text": "Mechanical inspection of drive mechanisms, selectors and diverter switches."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "preventive_actions",
+    "text": "Follow OEM-recommended OLTC maintenance intervals and procedures."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "preventive_actions",
+    "text": "Avoid excessive tap operations when not needed for system regulation."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "preventive_actions",
+    "text": "Maintain OLTC oil quality and cleanliness."
+  },
+  {
+    "fault_id": "F10A_OLTC_FAULT",
+    "fault_label": "oltc_fault",
+    "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+    "section": "preventive_actions",
+    "text": "Monitor tap position usage to prevent overusing certain contacts disproportionately."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "description",
+    "text": "Problems with fixed or de-energized tap selector positions, such as poor contact engagement, incorrect tap setting, contamination or mechanical misalignment."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "typical_sfra_signatures",
+    "text": "Differences in SFRA between nominally equivalent DETC positions when compared over time."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "typical_sfra_signatures",
+    "text": "Persistent anomalies at a single fixed tap setting that are not present in other units of the same design."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "typical_sfra_signatures",
+    "text": "Subtle changes in low- or mid-frequency regions related to altered effective turns ratio or connection quality."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "typical_sfra_signatures",
+    "text": "Phase imbalance in responses when only one phase is affected by a poor DETC connection."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "supporting_observables",
+    "text": "Unexpected voltage ratio deviations or regulation issues at a fixed tap setting."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "supporting_observables",
+    "text": "Elevated contact resistance or heating at DETC connection points."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "supporting_observables",
+    "text": "Inspection reports noting worn, misaligned or contaminated DETC contacts."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "supporting_observables",
+    "text": "Abnormal behavior observed after a tap change made during an outage."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "common_root_causes",
+    "text": "Improper contact engagement after a manual tap change with the transformer de-energized."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "common_root_causes",
+    "text": "Aging, wear or contamination on DETC contacts and insulating parts."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "common_root_causes",
+    "text": "Mechanical misalignment or incomplete locking of the selected tap position."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "common_root_causes",
+    "text": "Lack of maintenance or incorrect procedures during previous tap operations."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "severity_S1_summary",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Minor DETC Irregularity",
+    "text": "Small, tap-specific SFRA deviations; voltage regulation and operation appear normal."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Minor DETC Irregularity",
+    "text": "Note the anomaly and monitor SFRA if further tap changes are performed."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "severity_S1_recommended_actions",
+    "severity": "S1",
+    "severity_name": "S1 \u2013 Minor DETC Irregularity",
+    "text": "Verify that ratio measurements align with nameplate and system design."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "severity_S2_summary",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild DETC Contact or Setting Issue",
+    "text": "Clear but limited SFRA and electrical deviations at the selected tap; basic operation still acceptable."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild DETC Contact or Setting Issue",
+    "text": "Plan detailed inspection and cleaning of DETC contacts at the next outage."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "severity_S2_recommended_actions",
+    "severity": "S2",
+    "severity_name": "S2 \u2013 Mild DETC Contact or Setting Issue",
+    "text": "Confirm mechanical locking and correct position of the tap mechanism."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "severity_S3_summary",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Significant DETC Problem",
+    "text": "Significant SFRA differences with measurable impact on voltage ratio or losses; contact condition likely poor."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Significant DETC Problem",
+    "text": "Prioritize maintenance to inspect and repair DETC components."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "severity_S3_recommended_actions",
+    "severity": "S3",
+    "severity_name": "S3 \u2013 Significant DETC Problem",
+    "text": "Consider changing to a nearby healthy tap position if acceptable operationally."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "severity_S4_summary",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe DETC Degradation",
+    "text": "Serious SFRA and electrical anomalies; contact or connection integrity is doubtful."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe DETC Degradation",
+    "text": "Treat DETC as high-risk; plan urgent outage for repair or replacement of damaged parts."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "severity_S4_recommended_actions",
+    "severity": "S4",
+    "severity_name": "S4 \u2013 Severe DETC Degradation",
+    "text": "Avoid operating at the affected tap setting if an alternative is possible."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "severity_S5_summary",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical DETC Fault",
+    "text": "DETC condition considered unsafe; clear risk of failure at the selected tap position."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical DETC Fault",
+    "text": "Avoid energizing the transformer at the compromised tap setting."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "severity_S5_recommended_actions",
+    "severity": "S5",
+    "severity_name": "S5 \u2013 Critical DETC Fault",
+    "text": "Undertake immediate repair or rebuild of DETC components."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "recommended_tests",
+    "text": "SFRA comparison across different DETC settings where data is available."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "recommended_tests",
+    "text": "Ratio and phase-angle tests at the actual in-service tap position."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "recommended_tests",
+    "text": "Contact resistance measurement across DETC connections during outages."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "recommended_tests",
+    "text": "Visual inspection and cleaning of DETC components and insulating supports."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "preventive_actions",
+    "text": "Apply correct DETC tap-change procedures strictly with the transformer de-energized."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "preventive_actions",
+    "text": "Perform periodic inspection, cleaning and torque checks during major outages."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "preventive_actions",
+    "text": "Maintain documentation of tap position changes and associated test results."
+  },
+  {
+    "fault_id": "F10B_DETC_FAULT",
+    "fault_label": "detc_fault",
+    "display_name": "De-Energized Tap Changer (DETC) Issues",
+    "section": "preventive_actions",
+    "text": "Avoid unnecessary tap movements; only change when system conditions require."
+  }
+]

@@ -1,0 +1,961 @@
+{
+  "version": "1.0",
+  "description": "SFRA RAG Knowledge Base – v1, one block per major transformer fault type.",
+  "fault_knowledge": [
+    {
+      "id": "F0_HEALTHY",
+      "fault_label": "healthy",
+      "display_name": "Healthy Transformer",
+      "description": "No significant abnormality detected in SFRA, energy bands, turbulence, HF decay or loss/efficiency profile.",
+      "typical_sfra_signatures": [
+        "Smooth, repeatable frequency response with no unexpected peaks or notches.",
+        "Stable low-frequency region with expected resonances.",
+        "Mid-frequency patterns matching factory or historical baseline within tolerance.",
+        "High-frequency band without sudden deep notches or collapse."
+      ],
+      "supporting_observables": [
+        "Loss and efficiency values within manufacturer limits.",
+        "No unusual vibration or acoustic noise.",
+        "DGA results without abnormal gassing trend.",
+        "Normal load and temperature behavior."
+      ],
+      "common_root_causes": [],
+      "severity_levels": {
+        "NONE": {
+          "name": "No Fault",
+          "summary": "All rule-based thresholds lie in the healthy range; deviations remain within expected tolerance bands.",
+          "recommended_actions": [
+            "Store this SFRA as a reference baseline if not already present.",
+            "Continue routine condition monitoring as per maintenance schedule.",
+            "Use trend analysis rather than single-shot decisions."
+          ],
+          "risk": "No immediate risk indicated by current SFRA and calculated features."
+        }
+      },
+      "recommended_tests": [
+        "Periodic SFRA re-test based on criticality and utility policy.",
+        "Standard oil tests and DGA as per schedule.",
+        "Thermal and loading trend review."
+      ],
+      "preventive_actions": [
+        "Maintain proper transport and handling procedures.",
+        "Avoid overloading and excessive through-faults.",
+        "Keep records of all SFRA traces for long-term trending."
+      ]
+    },
+    {
+      "id": "F1_WINDING_DEFORMATION",
+      "fault_label": "winding_deformation",
+      "display_name": "Winding Deformation (General)",
+      "description": "Global mechanical distortion of winding geometry affecting inductance, capacitance and leakage reactance, leading to broad changes in SFRA signatures.",
+      "typical_sfra_signatures": [
+        "Broad shift of resonant peaks across low, mid and high frequency regions.",
+        "Collapse or smearing of distinct resonances into wider, less-defined humps.",
+        "Significant deviation from baseline across a wide frequency band.",
+        "Asymmetry between phases for identical test configurations."
+      ],
+      "supporting_observables": [
+        "History of through-faults or short-circuit events.",
+        "Transport or handling shocks without proper bracing.",
+        "Increase in leakage reactance compared to nameplate or baseline.",
+        "Abnormal vibration or noise under load."
+      ],
+      "common_root_causes": [
+        "Severe short-circuit mechanical forces exceeding design withstand levels.",
+        "Improper clamping or loss of clamping force over time.",
+        "Transport without locking devices or inadequate bracing.",
+        "Aging and shrinkage of solid insulation allowing windings to move."
+      ],
+      "severity_levels": {
+        "S1": {
+          "name": "S1 – Very Mild Deformation",
+          "summary": "Small SFRA deviations and minor modal shifts; pattern still broadly resembles baseline.",
+          "recommended_actions": [
+            "Flag the unit for closer SFRA trend monitoring.",
+            "Cross-check with load current, temperature and basic electrical tests."
+          ],
+          "risk": "Low immediate risk but can be an early indicator of mechanical weakness."
+        },
+        "S2": {
+          "name": "S2 – Mild Deformation",
+          "summary": "Clear but limited shifts in specific frequency bands; still acceptable for operation.",
+          "recommended_actions": [
+            "Schedule detailed SFRA comparison of all phases and similar units.",
+            "Combine with DGA, insulation and capacitance/inductance checks."
+          ],
+          "risk": "Moderate risk if left unchecked; deformation can progress with future short-circuits."
+        },
+        "S3": {
+          "name": "S3 – Moderate Deformation",
+          "summary": "Significant deviation from baseline in multiple bands; distinct resonances shifted or collapsed.",
+          "recommended_actions": [
+            "Plan controlled outage for internal inspection where feasible.",
+            "Check mechanical clamping, spacers, blocks and winding support systems."
+          ],
+          "risk": "Elevated risk of further mechanical damage under future faults; reliability compromised."
+        },
+        "S4": {
+          "name": "S4 – Severe Deformation",
+          "summary": "Major disruption in SFRA pattern; strong phase-to-phase mismatch.",
+          "recommended_actions": [
+            "Avoid heavy loading and new short-circuit duty.",
+            "Perform thorough internal inspection and dimensional checks of windings."
+          ],
+          "risk": "High likelihood of failure during future mechanical stresses."
+        },
+        "S5": {
+          "name": "S5 – Critical / Catastrophic Deformation",
+          "summary": "SFRA indicates collapse of characteristic structure consistent with major winding displacement.",
+          "recommended_actions": [
+            "Remove the transformer from service as soon as practical.",
+            "Assess rewinding or replacement; do not return to normal service without remediation."
+          ],
+          "risk": "Very high risk of catastrophic failure; continued operation is not recommended."
+        }
+      },
+      "recommended_tests": [
+        "Phase-wise SFRA comparison including HV/LV, open/short configurations.",
+        "Impedance and leakage reactance comparison to nameplate and historical values.",
+        "Dissolved gas analysis for evidence of severe mechanical or thermal events.",
+        "Capacitance and inductance measurements for phase imbalance."
+      ],
+      "preventive_actions": [
+        "Enforce mechanical bracing and locking procedures during transport.",
+        "Limit short-circuit exposure through network protection coordination.",
+        "Perform SFRA immediately after major faults and compare with baseline.",
+        "Maintain clamping systems and monitor for loosening over long-term operation."
+      ]
+    },
+    {
+      "id": "F2_RADIAL_DEFORMATION",
+      "fault_label": "radial_deformation",
+      "display_name": "Radial Deformation (Buckling / Hoop Stress)",
+      "description": "Inward or outward buckling and distortion of windings in the radial direction due to hoop stresses.",
+      "typical_sfra_signatures": [
+        "Pronounced changes in mid-frequency resonances associated with radial geometry.",
+        "Loss or shift of peaks linked to series inductance and radial spacing.",
+        "Asymmetry between phases for the same connection and test configuration.",
+        "In severe cases, collapse of a group of resonances in the mid band."
+      ],
+      "supporting_observables": [
+        "History of heavy short-circuit currents close to the unit.",
+        "Change in short-circuit impedance beyond tolerance.",
+        "Uneven mechanical noise from specific limbs or phases.",
+        "High fault current duty in recent years without mechanical verification."
+      ],
+      "common_root_causes": [
+        "High radial forces during external short-circuits.",
+        "Insufficient radial bracing or spacer design.",
+        "Aging and creep of solid insulation that reduces mechanical support.",
+        "Design not fully matched to actual network fault levels."
+      ],
+      "severity_levels": {
+        "S1": {
+          "name": "S1 – Early Radial Distortion",
+          "summary": "Minor mid-frequency shifts, within or close to acceptance tolerances.",
+          "recommended_actions": [
+            "Trend SFRA over time and after subsequent faults.",
+            "Re-check short-circuit impedance vs factory data."
+          ],
+          "risk": "Low, but indicates start of radial stress history."
+        },
+        "S2": {
+          "name": "S2 – Mild Radial Deformation",
+          "summary": "Clear deviation from baseline in limited mid-frequency ranges; geometry still mostly intact.",
+          "recommended_actions": [
+            "Increase SFRA monitoring frequency.",
+            "Assess loading and fault duty; derate if justified."
+          ],
+          "risk": "Possibility of progression during future short-circuits."
+        },
+        "S3": {
+          "name": "S3 – Moderate Buckling",
+          "summary": "Distinct change in multiple mid-frequency resonances; pattern consistent with partial buckling.",
+          "recommended_actions": [
+            "Discuss with OEM for structural assessment of windings.",
+            "Plan controlled outage for visual/mechanical inspection where practical."
+          ],
+          "risk": "Elevated risk that another short-circuit could cause severe mechanical damage."
+        },
+        "S4": {
+          "name": "S4 – Severe Radial Collapse",
+          "summary": "Large part of the mid-frequency structure distorted or collapsed; strong phase differences.",
+          "recommended_actions": [
+            "Consider the unit mechanically compromised.",
+            "Limit load and prepare to remove from critical duty."
+          ],
+          "risk": "High risk of failure under further mechanical stress."
+        },
+        "S5": {
+          "name": "S5 – Critical Structural Collapse",
+          "summary": "SFRA indicates major radial failure; geometry no longer consistent with safe operation.",
+          "recommended_actions": [
+            "Remove from service at earliest opportunity.",
+            "Decide on rewinding or replacement; do not return to normal duty without repair."
+          ],
+          "risk": "Very high risk of catastrophic failure if kept in service."
+        }
+      },
+      "recommended_tests": [
+        "Detailed SFRA around mid-frequency region for all phases.",
+        "Short-circuit impedance comparison test.",
+        "DGA for evidence of severe mechanical stress or arcing.",
+        "Visual inspection of windings and spacers when tank is opened."
+      ],
+      "preventive_actions": [
+        "Design and verify radial bracing for actual network fault currents.",
+        "Avoid repeated high-magnitude through-faults.",
+        "Immediately test SFRA after major faults and compare against factory traces.",
+        "Implement stricter protection settings where possible."
+      ]
+    },
+    {
+      "id": "F3_AXIAL_DISPLACEMENT",
+      "fault_label": "axial_displacement",
+      "display_name": "Axial Displacement",
+      "description": "Vertical upward or downward movement of windings along the limb axis, altering axial capacitance and inductance distribution.",
+      "typical_sfra_signatures": [
+        "Low- and mid-frequency resonance shifts along the frequency axis.",
+        "Appearance of new resonances or disappearance of previously distinct peaks.",
+        "Differences between tap positions that were previously aligned.",
+        "Phase-to-phase mismatch indicating movement of one winding stack relative to others."
+      ],
+      "supporting_observables": [
+        "Evidence of transport events without proper clamping or locking.",
+        "History of heavy through-faults or axial force events.",
+        "Unusual vibration profile along tank height.",
+        "Change in no-load current or excitation characteristics."
+      ],
+      "common_root_causes": [
+        "Axial forces during short-circuits exceeding clamp capability.",
+        "Loss of end-block compression and axial wedges.",
+        "Shrinkage or creep in axial insulation packs.",
+        "Improper assembly or reassembly after repair."
+      ],
+      "severity_levels": {
+        "S1": {
+          "name": "S1 – Minor Axial Shift",
+          "summary": "Small frequency shift of one or two resonances; still near baseline.",
+          "recommended_actions": [
+            "Monitor SFRA trend on same limb and phase over time.",
+            "Check transport and operating history for mechanical incidents."
+          ],
+          "risk": "Low; early indication only."
+        },
+        "S2": {
+          "name": "S2 – Mild Axial Displacement",
+          "summary": "Multiple resonances slightly shifted; pattern broadly intact but clearly changed.",
+          "recommended_actions": [
+            "Increase monitoring frequency and combine with other diagnostic tests.",
+            "Review clamping system design and previous maintenance records."
+          ],
+          "risk": "Moderate long-term risk if displacement continues."
+        },
+        "S3": {
+          "name": "S3 – Moderate Axial Movement",
+          "summary": "Pronounced shift of several resonances; SFRA clearly inconsistent with baseline on one or more limbs.",
+          "recommended_actions": [
+            "Plan outage for internal inspection of end-blocks and axial clamping.",
+            "Re-tighten or rebuild axial support structures as needed."
+          ],
+          "risk": "Elevated risk of dielectric stress and further mechanical deterioration."
+        },
+        "S4": {
+          "name": "S4 – Severe Axial Displacement",
+          "summary": "Large axial shift; resonances may merge or disappear; phase-to-phase alignment is lost.",
+          "recommended_actions": [
+            "Treat the unit as mechanically at-risk.",
+            "Avoid high load and severe network events.",
+            "Carry out mechanical overhaul of affected windings."
+          ],
+          "risk": "High risk of failure during future transients or faults."
+        },
+        "S5": {
+          "name": "S5 – Critical Axial Misalignment",
+          "summary": "Response consistent with major displacement; possible partial short or dielectric clearance violation.",
+          "recommended_actions": [
+            "Remove unit from critical service immediately.",
+            "Perform detailed mechanical and dielectric clearance assessment."
+          ],
+          "risk": "Very high risk of internal failure if operated without correction."
+        }
+      },
+      "recommended_tests": [
+        "Vertical vibration and acoustic survey along tank height.",
+        "SFRA comparison of multiple tap positions on the same phase.",
+        "Capacitance and inductance balance tests between phases.",
+        "Inspection of end blocks, wedges and axial clamping at outage."
+      ],
+      "preventive_actions": [
+        "Use robust axial clamping systems and maintain bolt torques.",
+        "Inspect axial supports after major fault events.",
+        "Avoid frequent heavy through-faults by network coordination.",
+        "Include axial movement checks in factory and post-transport tests."
+      ]
+    },
+    {
+      "id": "F4_CORE_GROUNDING",
+      "fault_label": "core_grounding_fault",
+      "display_name": "Core Grounding Fault",
+      "description": "Multiple or unintended core-to-ground connections causing circulating currents, extra losses and local overheating.",
+      "typical_sfra_signatures": [
+        "Changes in very low frequency region linked to core and grounding path.",
+        "Altered first resonances due to modified core-ground capacitance.",
+        "Differences between test configurations involving core or tank reference.",
+        "Subtle changes that correlate with other evidence such as losses and current."
+      ],
+      "supporting_observables": [
+        "Increased core losses compared to factory data.",
+        "Higher than expected no-load current.",
+        "Localized hot spots on core or tank detected by thermal imaging.",
+        "Evidence from core insulation resistance tests or flux measurements."
+      ],
+      "common_root_causes": [
+        "Degradation of core insulation packs or barriers.",
+        "Metallic debris bridging core to grounded structures.",
+        "Incorrectly installed or damaged core grounding leads.",
+        "Aging, moisture or thermal cycling weakening insulation."
+      ],
+      "severity_levels": {
+        "S1": {
+          "name": "S1 – Suspected Core Grounding",
+          "summary": "SFRA and losses hint at possible additional ground path, but evidence is still weak.",
+          "recommended_actions": [
+            "Repeat tests and confirm repeatability of signatures.",
+            "Perform core insulation resistance and flux-neutral tests."
+          ],
+          "risk": "Low to moderate; can evolve slowly but may cause long-term damage."
+        },
+        "S2": {
+          "name": "S2 – Confirmed Additional Ground Path",
+          "summary": "Correlated evidence indicates more than one core ground point.",
+          "recommended_actions": [
+            "Plan outage to localize and clear unwanted ground paths.",
+            "Inspect for metallic debris, damaged insulation or incorrect earthing connections."
+          ],
+          "risk": "Moderate; associated with increased losses and localized heating."
+        },
+        "S3": {
+          "name": "S3 – Significant Core Grounding Fault",
+          "summary": "Core and tank behavior strongly affected; losses and temperatures elevated.",
+          "recommended_actions": [
+            "Take unit under close loading control and plan corrective outage promptly.",
+            "Carry out detailed core inspection, cleaning and insulation repair."
+          ],
+          "risk": "High risk of progressive insulation damage if left unresolved."
+        },
+        "S4": {
+          "name": "S4 – Severe Grounding with Hot Spots",
+          "summary": "Evidence of hot spots and severe loss increase; marked core behavior change.",
+          "recommended_actions": [
+            "Avoid heavy loading and long-duration operation until issue is cleared.",
+            "Perform urgent internal inspection focusing on core clamps, bolts and insulation barriers."
+          ],
+          "risk": "High; thermal and mechanical deterioration can accelerate."
+        },
+        "S5": {
+          "name": "S5 – Critical Core Ground Fault",
+          "summary": "Core grounding state considered unsafe for continued operation.",
+          "recommended_actions": [
+            "De-energize the transformer as soon as practical.",
+            "Undertake full core inspection and rebuild where needed."
+          ],
+          "risk": "Very high; possible insulation breakdown or severe overheating if kept online."
+        }
+      },
+      "recommended_tests": [
+        "Core insulation resistance and core grounding continuity tests.",
+        "No-load loss and current measurement versus factory values.",
+        "Thermal imaging of core and tank areas.",
+        "SFRA in configurations sensitive to core-ground capacitances."
+      ],
+      "preventive_actions": [
+        "Maintain cleanliness to avoid conductive debris inside tank.",
+        "Preserve integrity of key insulation pieces and barriers around core.",
+        "Verify core grounding layout after any major repair or retrofit.",
+        "Limit moisture ingress and aggressive thermal cycling."
+      ]
+    },
+    {
+      "id": "F5_CORE_LOOSENING",
+      "fault_label": "core_loosening",
+      "display_name": "Core Loosening",
+      "description": "Loss of mechanical tightness in core laminations, clamps, yokes, tie plates and frame assemblies, leading to vibration, noise and altered low-frequency behavior.",
+      "typical_sfra_signatures": [
+        "Pronounced changes in very low frequency region (roughly 20 Hz – 1 kHz).",
+        "Suppression or broadening of first core-related resonances.",
+        "LF ripple or modulation of the curve due to vibrating laminations.",
+        "Deviation from baseline primarily in the lowest band with more stable higher-frequency regions."
+      ],
+      "supporting_observables": [
+        "Increase in audible hum and mechanical vibration at 50/60 Hz and its harmonics.",
+        "Rise in magnetizing current compared to historical values.",
+        "Higher core losses and possible localized heating near clamps.",
+        "History of shocks, transport events or long-term aging without re-tightening."
+      ],
+      "common_root_causes": [
+        "Loss of clamp bolt torque due to creep, relaxation or thermal cycling.",
+        "Pressboard shrinkage reducing compression on laminations.",
+        "Mechanical shocks during transport or seismic events.",
+        "Corrosion or wear of clamp and frame interfaces."
+      ],
+      "severity_levels": {
+        "S1": {
+          "name": "S1 – Early Stage Loosening",
+          "summary": "Minor LF deviation and slight increase in hum or vibration; magnetizing current near normal.",
+          "recommended_actions": [
+            "Trend SFRA and vibration over time.",
+            "Check accessible external clamps and supports for tightening."
+          ],
+          "risk": "Low immediate risk but can progress if left unchecked."
+        },
+        "S2": {
+          "name": "S2 – Light Core Loosening",
+          "summary": "LF deviation more noticeable, audible noise; magnetizing current elevated.",
+          "recommended_actions": [
+            "Plan maintenance window to inspect and re-tighten clamps where accessible.",
+            "Combine SFRA with vibration and acoustic analysis to localize loose regions."
+          ],
+          "risk": "Moderate; prolonged operation may accelerate insulation wear and losses."
+        },
+        "S3": {
+          "name": "S3 – Moderate Loosening",
+          "summary": "LF deviation significant with clear ripple; magnetizing current and vibration clearly increased.",
+          "recommended_actions": [
+            "Schedule outage to inspect internal core clamping, yoke clamps and tie plates.",
+            "Re-establish proper compression and replace damaged insulation packers."
+          ],
+          "risk": "Elevated; risk of lamination wear, burrs and local overheating increases."
+        },
+        "S4": {
+          "name": "S4 – Severe Core Loosening",
+          "summary": "LF region heavily distorted; high vibration and hum; magnetizing current much higher than normal.",
+          "recommended_actions": [
+            "Treat the unit as mechanically compromised.",
+            "Restrict load and avoid high fault duty until corrective work is done."
+          ],
+          "risk": "High; potential for evolving into core grounding faults or serious hot spots."
+        },
+        "S5": {
+          "name": "S5 – Critical Core Instability",
+          "summary": "LF region highly distorted or collapsed; severe vibration and noise, high magnetizing current and loss.",
+          "recommended_actions": [
+            "Consider de-energizing the transformer as soon as feasible.",
+            "Perform comprehensive core rebuild or re-stacking if necessary."
+          ],
+          "risk": "Very high; continued operation risks severe internal damage and potential failure."
+        }
+      },
+      "recommended_tests": [
+        "Focused SFRA on 20 Hz – 1 kHz region, compared against baseline.",
+        "Magnetizing current and core loss measurement at rated voltage.",
+        "Vibration and acoustic analysis on tank and core clamp regions.",
+        "Thermographic scanning for localized hot spots around core clamps."
+      ],
+      "preventive_actions": [
+        "Verify and maintain core clamp bolt torque as per OEM guidance.",
+        "Minimize shocks during transport; use proper bracing.",
+        "Avoid extended operation under conditions that cause excessive vibration.",
+        "Perform periodic SFRA and vibration checks on aging units."
+      ]
+    },
+    {
+      "id": "F6_INTER_TURN_FAULT",
+      "fault_label": "inter_turn_fault",
+      "display_name": "Inter-Turn Fault / Turn-to-Turn Weakness",
+      "description": "Localized shorted turns or severely weakened insulation between adjacent turns in a winding, causing highly localized changes in impedance and loss, often with thermal and dielectric stress concentration.",
+      "typical_sfra_signatures": [
+        "Localized deep notches or sharp changes in the mid- to high-frequency bands.",
+        "Peak splitting or creation of additional resonances in a narrow frequency zone.",
+        "Phase-to-phase asymmetry where only one phase shows a pronounced high-frequency anomaly.",
+        "In severe stages, broader collapse of HF pattern where multiple resonances are damped or vanish."
+      ],
+      "supporting_observables": [
+        "DGA showing increases in fault gases associated with arcing or severe partial discharge.",
+        "Elevated local winding temperature or hotspot indications from thermal monitoring.",
+        "Abnormal leakage current, partial discharge activity or failed insulation tests.",
+        "History of severe transient events such as lightning, switching surges or temporary overvoltages."
+      ],
+      "common_root_causes": [
+        "Localized insulation deterioration between turns due to thermal aging or overloading.",
+        "Manufacturing defects such as insufficient spacing or sharp edges on conductors.",
+        "Contamination, moisture or particles causing bridging between adjacent turns.",
+        "Previous transient overvoltage that initiated partial turn breakdown.",
+        "Repeated short-circuit stresses weakening turn-to-turn insulation over time."
+      ],
+      "severity_levels": {
+        "S1": {
+          "name": "S1 – Suspicious High-Frequency Anomaly",
+          "summary": "Minor HF notch or peak distortion observed in SFRA without strong corroborating evidence from other diagnostics.",
+          "recommended_actions": [
+            "Repeat SFRA with consistent test setup to confirm the anomaly is stable.",
+            "Compare with historical and factory baseline curves for the same phase and configuration."
+          ],
+          "risk": "Low to moderate; could represent incipient turn insulation weakness or benign variation."
+        },
+        "S2": {
+          "name": "S2 – Possible Incipient Inter-Turn Weakness",
+          "summary": "HF anomalies are repeatable and more clearly defined; other evidence supports emerging insulation stress.",
+          "recommended_actions": [
+            "Increase monitoring frequency: SFRA, DGA and thermal measurements.",
+            "Review loading history, through-fault records and transient events."
+          ],
+          "risk": "Moderate; if not managed, defect can evolve into a true inter-turn fault."
+        },
+        "S3": {
+          "name": "S3 – Localized Inter-Turn Fault Likely",
+          "summary": "SFRA shows clear, narrow-band HF notches or peak splitting with correlated abnormal gas trends.",
+          "recommended_actions": [
+            "Plan a controlled outage for deeper diagnostic investigation.",
+            "Perform detailed insulation testing and engage OEM or specialist."
+          ],
+          "risk": "High; defect may progress under load, leading to rapid winding damage if stressed further."
+        },
+        "S4": {
+          "name": "S4 – Significant Inter-Turn Fault",
+          "summary": "Multiple HF anomalies with strong supporting evidence from DGA and insulation tests; localized overheating likely.",
+          "recommended_actions": [
+            "Restrict loading and avoid high short-circuit duty or emergency overloads.",
+            "Prepare for planned outage and internal inspection of the affected winding section."
+          ],
+          "risk": "High; continued operation poses substantial risk of rapid deterioration."
+        },
+        "S5": {
+          "name": "S5 – Critical Inter-Turn Failure",
+          "summary": "Diagnostics strongly indicate active inter-turn fault with significant impact on local losses and dielectric integrity.",
+          "recommended_actions": [
+            "Consider immediate de-energization if system conditions permit.",
+            "Plan for rewinding or replacement of the affected winding before returning to service."
+          ],
+          "risk": "Very high; serious risk of catastrophic winding failure and collateral equipment damage."
+        }
+      },
+      "recommended_tests": [
+        "High-frequency SFRA with close comparison across phases and test configurations.",
+        "DGA with focus on arcing-related gases and trending over time.",
+        "Partial discharge measurements where possible to localize activity.",
+        "Capacitance, inductance and insulation resistance tests across the suspected winding."
+      ],
+      "preventive_actions": [
+        "Control loading to avoid repeated thermal over-stressing of windings.",
+        "Ensure lightning and surge protection schemes are adequate and maintained.",
+        "Maintain oil quality and dryness to improve dielectric withstand.",
+        "Use SFRA and DGA routinely after major faults or transient events."
+      ]
+    },
+    {
+      "id": "F7_INSULATION_DEGRADATION",
+      "fault_label": "insulation_degradation",
+      "display_name": "Global Insulation Degradation (Paper/Oil/Interfaces)",
+      "description": "Overall deterioration of solid and liquid insulation system, including paper, pressboard, oil and interfaces, leading to reduced dielectric margins and increased probability of partial discharge and breakdown.",
+      "typical_sfra_signatures": [
+        "General softening or damping of multiple resonances across mid- and high-frequency ranges.",
+        "Less pronounced high-frequency structure compared to baseline, with peaks becoming smoother.",
+        "Subtle but consistent deviations across all phases rather than a single localized anomaly.",
+        "In advanced stages, collapse of high-frequency detail as dielectric properties change significantly."
+      ],
+      "supporting_observables": [
+        "DGA showing progressive aging signatures and possible partial discharge indicators.",
+        "High moisture content in oil and paper, poor breakdown voltage and high dissipation factor.",
+        "Low degree of polymerization values indicating advanced paper aging.",
+        "Elevated temperatures during operation relative to historical behavior."
+      ],
+      "common_root_causes": [
+        "Long-term thermal aging from continuous high loading or hotspots.",
+        "Inadequate drying and oil treatment leading to persistent moisture.",
+        "Ingress of oxygen and contaminants due to leaks or poor sealing.",
+        "Repeated overloading beyond nameplate rating."
+      ],
+      "severity_levels": {
+        "S1": {
+          "name": "S1 – Early Insulation Aging",
+          "summary": "Minor SFRA changes with mild supporting evidence from oil tests; insulation still broadly acceptable.",
+          "recommended_actions": [
+            "Increase frequency of routine oil and insulation testing.",
+            "Monitor SFRA trends and compare against similar units and baselines."
+          ],
+          "risk": "Low; aging is present but does not yet significantly compromise dielectric margins."
+        },
+        "S2": {
+          "name": "S2 – Mild Degradation",
+          "summary": "SFRA deviations more noticeable in high-frequency bands; aging indicators above ideal values.",
+          "recommended_actions": [
+            "Plan enhanced conditioning: oil filtration, drying and moisture control.",
+            "Restrict sustained overloading and closely monitor hottest-spot temperatures."
+          ],
+          "risk": "Moderate; continued stress may accelerate aging and reduce remaining life."
+        },
+        "S3": {
+          "name": "S3 – Significant Insulation Degradation",
+          "summary": "SFRA shows clear damping of several resonances; diagnostics confirm reduced dielectric quality.",
+          "recommended_actions": [
+            "Develop a life-management plan including possible derating of the transformer.",
+            "Consider intensive refurbishment such as oil reclamation and enhanced drying."
+          ],
+          "risk": "Elevated; dielectric margins are reduced and risk of insulation breakdown grows with stress."
+        },
+        "S4": {
+          "name": "S4 – Severe Degradation",
+          "summary": "Multiple tools confirm advanced deterioration; SFRA high-frequency detail largely damped.",
+          "recommended_actions": [
+            "Treat unit as high-risk asset and prioritize for refurbishment or replacement.",
+            "Significantly restrict overload and emergency duty."
+          ],
+          "risk": "High; risk of dielectric failure under normal or slightly elevated stresses is substantial."
+        },
+        "S5": {
+          "name": "S5 – End-of-Life Insulation Condition",
+          "summary": "Insulation system considered near end-of-life; diagnostics show extensive deterioration.",
+          "recommended_actions": [
+            "Schedule replacement or major refurbishment as a priority.",
+            "If left in service temporarily, use strict limits and continuous monitoring."
+          ],
+          "risk": "Very high; probability of major insulation failure is significant."
+        }
+      },
+      "recommended_tests": [
+        "Comprehensive oil quality analysis including moisture, breakdown voltage and dissipation factor.",
+        "DGA trending focused on aging and partial discharge-related gases.",
+        "Paper degree-of-polymerization testing where possible or indirect insulation health estimation.",
+        "SFRA trending over time and comparison with similar units."
+      ],
+      "preventive_actions": [
+        "Maintain effective drying and oil treatment programs.",
+        "Avoid chronic overloading and operate within thermal design limits.",
+        "Ensure tightness of tank and bushings to prevent moisture ingress.",
+        "Apply timely refurbishment such as oil reclamation to slow further aging."
+      ]
+    },
+    {
+      "id": "F8_MECHANICAL_LOOSENESS",
+      "fault_label": "mechanical_looseness",
+      "display_name": "General Mechanical Looseness (Clamps, Leads, Connections)",
+      "description": "Loose mechanical components such as clamps, leads, connectors, support structures or non-core elements that introduce vibration, noise and localized stress without necessarily appearing as a classic core or winding fault.",
+      "typical_sfra_signatures": [
+        "Subtle variations in SFRA curves that may change slightly with repeated tests or mechanical state.",
+        "Small distortions or ripples superimposed on otherwise normal responses.",
+        "Phase differences or configuration-dependent anomalies that correlate with certain mechanical positions."
+      ],
+      "supporting_observables": [
+        "Observable rattling, knocking or intermittent mechanical noise during operation.",
+        "Changes in sound signature with load, tap position or cooling mode.",
+        "Vibration measurements showing localized peaks at specific frequencies or locations.",
+        "Visual signs of loosened hardware, supports or cable bracing when accessible."
+      ],
+      "common_root_causes": [
+        "Insufficient tightening of external clamps, connections or supports.",
+        "Thermal cycling causing loosening of hardware over time.",
+        "Vibration due to cooling fans, pumps or external sources not properly damped.",
+        "Improper reassembly after maintenance or repair."
+      ],
+      "severity_levels": {
+        "S1": {
+          "name": "S1 – Minor Mechanical Looseness",
+          "summary": "Very subtle indications with minor or no SFRA impact; mostly observed via sound or vibration.",
+          "recommended_actions": [
+            "Inspect accessible external connections, clamps and structures.",
+            "Tighten or secure loose hardware following OEM torque specifications."
+          ],
+          "risk": "Low; primary concern is discomfort, minor stress and potential progression if ignored."
+        },
+        "S2": {
+          "name": "S2 – Mild Looseness with Local Impact",
+          "summary": "Looseness affects localized areas such as leads or external busbars; SFRA impact limited or subtle.",
+          "recommended_actions": [
+            "Localize the source through vibration and acoustic surveys.",
+            "Secure and brace leads, connectors and supports."
+          ],
+          "risk": "Moderate; may concentrate mechanical stress and contribute to long-term insulation wear."
+        },
+        "S3": {
+          "name": "S3 – Significant Mechanical Looseness",
+          "summary": "Clear mechanical instability; SFRA may show configuration-dependent variations.",
+          "recommended_actions": [
+            "Plan outage to inspect internal and inaccessible mechanical supports where possible.",
+            "Tighten and replace hardware, install additional bracing or damping where needed."
+          ],
+          "risk": "Elevated; risk of fatigue, conductor movement and localized insulation damage increases."
+        },
+        "S4": {
+          "name": "S4 – Severe Looseness with Structural Concern",
+          "summary": "Mechanical components significantly unstable; risk of damage to conductors or insulation is high.",
+          "recommended_actions": [
+            "Treat unit as mechanically at-risk; restrict loading if necessary.",
+            "Perform detailed inspection and corrective work including hardware replacement."
+          ],
+          "risk": "High; can contribute to electrical faults or collateral damage if not corrected."
+        },
+        "S5": {
+          "name": "S5 – Critical Mechanical Instability",
+          "summary": "Severe mechanical looseness that may result in conductor failure, flashover or severe internal damage.",
+          "recommended_actions": [
+            "Consider immediate removal from service if instability is confirmed.",
+            "Carry out urgent internal and external mechanical repair or reconstruction."
+          ],
+          "risk": "Very high; strong potential for sudden failure under normal or disturbed operation."
+        }
+      },
+      "recommended_tests": [
+        "Detailed vibration and acoustic analysis at multiple operating points.",
+        "SFRA before and after mechanical tightening to assess impact.",
+        "Thermal imaging of suspected loose connections or high-resistance joints.",
+        "Torque verification of critical bolted joints and clamps."
+      ],
+      "preventive_actions": [
+        "Implement regular mechanical inspection and torque checks on critical fasteners.",
+        "Use proper bracing and damping for leads, connections and external conductors.",
+        "Inspect after transport, seismic events or significant mechanical shocks.",
+        "Monitor vibration trends and investigate any new or changing noise patterns."
+      ]
+    },
+    {
+      "id": "F9_SC_MECHANICAL_STRESS",
+      "fault_label": "sc_mechanical_stress",
+      "display_name": "Short-Circuit Mechanical Stress History",
+      "description": "Cumulative or single-event mechanical damage due to short-circuit forces, which may manifest as a combination of winding deformation, buckling, displacement and structural strain.",
+      "typical_sfra_signatures": [
+        "Wide-ranging SFRA deviations that cannot be attributed to a single localized mechanism.",
+        "Combination of radial and axial pattern changes: peak shifts, collapses and altered resonances across several bands.",
+        "Phase-to-phase differences reflecting unequal stress or damage on individual limbs.",
+        "Significant deviation from factory or pre-fault SFRA baseline after a known severe fault event."
+      ],
+      "supporting_observables": [
+        "Documented history of one or more high-magnitude short-circuit events close to the transformer.",
+        "Changes in short-circuit impedance measurements compared to factory data.",
+        "DGA evidence of severe mechanical or electrical stress during the incident.",
+        "Visible mechanical issues such as bent leads or shifted structures where accessible."
+      ],
+      "common_root_causes": [
+        "External short-circuits exceeding design withstand levels.",
+        "Multiple high-energy faults over the service life without subsequent mechanical verification.",
+        "Protection miscoordination leading to prolonged fault duration.",
+        "Insufficient mechanical design margin relative to actual network fault levels."
+      ],
+      "severity_levels": {
+        "S1": {
+          "name": "S1 – Minor Stress Signatures Post-Fault",
+          "summary": "Small SFRA differences detected post-fault; changes near acceptance limits.",
+          "recommended_actions": [
+            "Trend SFRA periodically and compare with pre-fault baselines.",
+            "Verify short-circuit impedance remains within tolerance."
+          ],
+          "risk": "Low to moderate; indicates exposure to stress but not yet clearly damaging."
+        },
+        "S2": {
+          "name": "S2 – Mild Damage from Short-Circuit",
+          "summary": "More noticeable SFRA deviations in selected bands, suggesting limited impact.",
+          "recommended_actions": [
+            "Increase monitoring and perform SFRA after any additional fault events.",
+            "Consider limiting fault duty by network or protection adjustments."
+          ],
+          "risk": "Moderate; further faults could push damage into dangerous territory."
+        },
+        "S3": {
+          "name": "S3 – Significant Mechanical Damage from Fault",
+          "summary": "SFRA shows distinct pattern changes indicating deformation or displacement.",
+          "recommended_actions": [
+            "Engage OEM or experts to evaluate mechanical condition and residual withstand level.",
+            "Plan outage for internal inspection where technically and economically justified."
+          ],
+          "risk": "Elevated; ability to withstand future short-circuits is reduced."
+        },
+        "S4": {
+          "name": "S4 – Severe Stress-Related Damage",
+          "summary": "Extensive SFRA deviation with evidence of major structural impact.",
+          "recommended_actions": [
+            "Treat transformer as compromised for future short-circuit events.",
+            "Develop contingency plans such as spare units or network reconfiguration."
+          ],
+          "risk": "High; another severe fault could cause catastrophic failure."
+        },
+        "S5": {
+          "name": "S5 – Critical Post-Fault Condition",
+          "summary": "Combined evidence indicates transformer no longer safely withstands design-level faults.",
+          "recommended_actions": [
+            "Remove or protect the unit from positions with high fault exposure.",
+            "Plan for replacement or major rebuild on priority basis."
+          ],
+          "risk": "Very high; probability of catastrophic failure under further short-circuit stress is significant."
+        }
+      },
+      "recommended_tests": [
+        "Baseline versus post-fault SFRA comparisons for all phases.",
+        "Short-circuit impedance tests compared to nameplate and historical values.",
+        "Comprehensive DGA after each severe fault event.",
+        "Mechanical inspection of windings, spacers and structural elements during outages."
+      ],
+      "preventive_actions": [
+        "Coordinate system protection to limit fault magnitude and duration.",
+        "Avoid locating mechanically weaker or aged units at high fault level buses.",
+        "Perform SFRA immediately after major faults for early detection of damage.",
+        "Select transformers with adequate mechanical margins for actual network conditions."
+      ]
+    },
+    {
+      "id": "F10A_OLTC_FAULT",
+      "fault_label": "oltc_fault",
+      "display_name": "On-Load Tap Changer (OLTC) Fault / Degradation",
+      "description": "Issues within the on-load tap changer assembly such as contact wear, poor switching performance, resistive bridging, mechanical misalignment or contamination.",
+      "typical_sfra_signatures": [
+        "Differences in SFRA traces between tap positions that were historically similar.",
+        "Unexpected anomalies tied specifically to certain tap positions or tap ranges.",
+        "Asymmetry between phases when taps are nominally in the same position.",
+        "Configuration-dependent changes, especially in tests that include the tap winding path."
+      ],
+      "supporting_observables": [
+        "OLTC operation problems such as slow or failed tap changes, abnormal sounds or blocked operations.",
+        "Evidence of contact wear or burning from OLTC inspection reports.",
+        "Rising contact resistance, overheating or gas generation in the OLTC compartment.",
+        "Abnormal relay operations or protection trips during tap change operations."
+      ],
+      "common_root_causes": [
+        "Aging and erosion of OLTC contacts due to repeated switching under load.",
+        "Insufficient maintenance, inadequate contact pressure or misadjusted mechanisms.",
+        "Contamination or degradation of OLTC oil leading to carbon deposits and sludge.",
+        "Mechanical misalignment or wear in drive linkages, gears and selector mechanisms."
+      ],
+      "severity_levels": {
+        "S1": {
+          "name": "S1 – Early OLTC Condition Issues",
+          "summary": "Minor, tap-position-specific SFRA variations with weak or no corroborating symptoms.",
+          "recommended_actions": [
+            "Correlate SFRA changes with tap position and historical data.",
+            "Increase monitoring of OLTC operations and count of tap changes."
+          ],
+          "risk": "Low; early indication that OLTC may require closer attention."
+        },
+        "S2": {
+          "name": "S2 – Mild OLTC Degradation",
+          "summary": "Consistent SFRA differences at certain tap positions alongside mild OLTC symptoms.",
+          "recommended_actions": [
+            "Schedule maintenance window to inspect and service the OLTC.",
+            "Check contact wear, spring forces and mechanical alignment."
+          ],
+          "risk": "Moderate; risk of tap change failures or increased contact heating if ignored."
+        },
+        "S3": {
+          "name": "S3 – Significant OLTC Fault Behavior",
+          "summary": "Clear SFRA anomalies plus noticeable OLTC issues such as mis-operations, heating or relay activity.",
+          "recommended_actions": [
+            "Limit unnecessary tap changes and avoid operating known problematic positions.",
+            "Carry out detailed OLTC inspection, cleaning and component replacement as needed."
+          ],
+          "risk": "Elevated; increased chance of OLTC failure, arcing and possible transformer trip."
+        },
+        "S4": {
+          "name": "S4 – Severe OLTC Degradation",
+          "summary": "Severe tap-dependent anomalies with evidence of contact burning or mechanical jamming.",
+          "recommended_actions": [
+            "Treat OLTC as a high-risk component and plan urgent repair or retrofit.",
+            "Avoid stressful tap operations and configurations inducing high current through damaged contacts."
+          ],
+          "risk": "High; potential for OLTC failure leading to load loss or internal damage increases substantially."
+        },
+        "S5": {
+          "name": "S5 – Critical OLTC Fault",
+          "summary": "OLTC considered unsafe to operate; strong evidence of severe contact or mechanical failure.",
+          "recommended_actions": [
+            "Minimize or completely avoid OLTC operation until repaired.",
+            "Take transformer out of service if safe operation cannot be guaranteed."
+          ],
+          "risk": "Very high; significant chance of serious fault or failure during OLTC operation."
+        }
+      },
+      "recommended_tests": [
+        "Tap-position-resolved SFRA comparison across the full operating range.",
+        "Dynamic resistance measurement or contact resistance testing of OLTC paths.",
+        "OLTC oil sampling and analysis for carbon and degradation products.",
+        "Mechanical inspection of drive mechanisms, selectors and diverter switches."
+      ],
+      "preventive_actions": [
+        "Follow OEM-recommended OLTC maintenance intervals and procedures.",
+        "Avoid excessive tap operations when not needed for system regulation.",
+        "Maintain OLTC oil quality and cleanliness.",
+        "Monitor tap position usage to prevent overusing certain contacts disproportionately."
+      ]
+    },
+    {
+      "id": "F10B_DETC_FAULT",
+      "fault_label": "detc_fault",
+      "display_name": "De-Energized Tap Changer (DETC) Issues",
+      "description": "Problems with fixed or de-energized tap selector positions, such as poor contact engagement, incorrect tap setting, contamination or mechanical misalignment.",
+      "typical_sfra_signatures": [
+        "Differences in SFRA between nominally equivalent DETC positions when compared over time.",
+        "Persistent anomalies at a single fixed tap setting that are not present in other units of the same design.",
+        "Subtle changes in low- or mid-frequency regions related to altered effective turns ratio or connection quality.",
+        "Phase imbalance in responses when only one phase is affected by a poor DETC connection."
+      ],
+      "supporting_observables": [
+        "Unexpected voltage ratio deviations or regulation issues at a fixed tap setting.",
+        "Elevated contact resistance or heating at DETC connection points.",
+        "Inspection reports noting worn, misaligned or contaminated DETC contacts.",
+        "Abnormal behavior observed after a tap change made during an outage."
+      ],
+      "common_root_causes": [
+        "Improper contact engagement after a manual tap change with the transformer de-energized.",
+        "Aging, wear or contamination on DETC contacts and insulating parts.",
+        "Mechanical misalignment or incomplete locking of the selected tap position.",
+        "Lack of maintenance or incorrect procedures during previous tap operations."
+      ],
+      "severity_levels": {
+        "S1": {
+          "name": "S1 – Minor DETC Irregularity",
+          "summary": "Small, tap-specific SFRA deviations; voltage regulation and operation appear normal.",
+          "recommended_actions": [
+            "Note the anomaly and monitor SFRA if further tap changes are performed.",
+            "Verify that ratio measurements align with nameplate and system design."
+          ],
+          "risk": "Low; condition may remain stable but warrants attention at next maintenance opportunity."
+        },
+        "S2": {
+          "name": "S2 – Mild DETC Contact or Setting Issue",
+          "summary": "Clear but limited SFRA and electrical deviations at the selected tap; basic operation still acceptable.",
+          "recommended_actions": [
+            "Plan detailed inspection and cleaning of DETC contacts at the next outage.",
+            "Confirm mechanical locking and correct position of the tap mechanism."
+          ],
+          "risk": "Moderate; long-term operation with poor contact can cause local heating and degradation."
+        },
+        "S3": {
+          "name": "S3 – Significant DETC Problem",
+          "summary": "Significant SFRA differences with measurable impact on voltage ratio or losses; contact condition likely poor.",
+          "recommended_actions": [
+            "Prioritize maintenance to inspect and repair DETC components.",
+            "Consider changing to a nearby healthy tap position if acceptable operationally."
+          ],
+          "risk": "Elevated; risk of local overheating and progressive deterioration if not addressed."
+        },
+        "S4": {
+          "name": "S4 – Severe DETC Degradation",
+          "summary": "Serious SFRA and electrical anomalies; contact or connection integrity is doubtful.",
+          "recommended_actions": [
+            "Treat DETC as high-risk; plan urgent outage for repair or replacement of damaged parts.",
+            "Avoid operating at the affected tap setting if an alternative is possible."
+          ],
+          "risk": "High; possibility of insulation damage, arcing or failure at DETC connection points."
+        },
+        "S5": {
+          "name": "S5 – Critical DETC Fault",
+          "summary": "DETC condition considered unsafe; clear risk of failure at the selected tap position.",
+          "recommended_actions": [
+            "Avoid energizing the transformer at the compromised tap setting.",
+            "Undertake immediate repair or rebuild of DETC components."
+          ],
+          "risk": "Very high; potential for serious damage or outage if operated without correction."
+        }
+      },
+      "recommended_tests": [
+        "SFRA comparison across different DETC settings where data is available.",
+        "Ratio and phase-angle tests at the actual in-service tap position.",
+        "Contact resistance measurement across DETC connections during outages.",
+        "Visual inspection and cleaning of DETC components and insulating supports."
+      ],
+      "preventive_actions": [
+        "Apply correct DETC tap-change procedures strictly with the transformer de-energized.",
+        "Perform periodic inspection, cleaning and torque checks during major outages.",
+        "Maintain documentation of tap position changes and associated test results.",
+        "Avoid unnecessary tap movements; only change when system conditions require."
+      ]
+    }
+  ]
+}

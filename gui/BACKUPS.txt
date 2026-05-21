@@ -1,0 +1,4 @@
+RAG_KB_PATH   = os.path.join(BASE_DIR, "rag_knowledge_base.json")
+RAG_INDEX_DIR = os.path.join(BASE_DIR, "rag_index")
+RAG_EMB_FILE  = os.path.join(RAG_INDEX_DIR, "rag_embeddings.npy")
+RAG_META_FILE = os.path.join(RAG_INDEX_DIR, "rag_chunks.json")

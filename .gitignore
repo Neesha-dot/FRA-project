@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+
+output/
+outputs/
+
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+firebase_key.json
+fiirebase_key.json
