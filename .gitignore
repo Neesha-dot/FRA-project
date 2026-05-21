@@ -1,14 +1,15 @@
-venv/
-__pycache__/
-*.pyc
+# Large AI / ML files
+*.gguf
+*.pkl
+*.npy
 
+# Reports and generated outputs
 output/
 outputs/
 
-*.pdf
-*.png
-*.jpg
-*.jpeg
+# Python cache
+__pycache__/
+*.pyc
 
-firebase_key.json
-fiirebase_key.json
+# Virtual env
+venv/
